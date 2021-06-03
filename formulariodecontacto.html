@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cabecera Eventos</title>
+  <link rel="stylesheet" href="assets/bootstrap-5.0.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="formulariodecontacto.css">
+  <link rel="stylesheet" media="only screen and (max-width:480px)" href="css/mobile.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <script src="formulariodecontacto.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <title>formulario de contacto</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Eventos  -->
+      <div class="imgbosco">
+        <img src="assets/imagotipo_vertical_RGB_sinfondo.png" class="img-fluid" alt="Icono Don Bosco">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 letras">
+
+          <li class="nav-item">
+            <!-- Iniciar Sesión  -->
+            <a class="nav-link letra" href="#">Eventos</a>
+          </li>
+
+          <li class="nav-item ">
+            <!-- Iniciar Sesión  -->
+            <a class="nav-link letra" href="#">Contacto</a>
+          </li>
+          <li class="nav-item ">
+            <!-- Iniciar Sesión  -->
+            <a class="nav-link letra" href="#">Inicio sesion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <script src="assets/bootstrap-5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div class="Caja uno">
+    <h1>Formulario de contacto</h1>
+  </div>
+  <div class="Caja dos">
+    <form>
+      <fieldset>
+        <input type="text" id="Nombre" placeholder="Nombre" minlength="0" maxlength="50"
+          pattern="/^[a-ZA-Z0-9\_\-]{4,16}$/," required />
+          <i claas="nombre__validacion fas fa-times-cicle"></i>
+          <p class="nombre__input error"></p>
+        <input type="text" id="Apellidos" placeholder="Apellidos" minlength="0" maxlength="50"
+           pattern=/^[a-ZA-Z0-9\_\-]{16,40}$/, required />
+           <i claas="nombre__validacion fas fa-times-cicle"></i>
+           <p class="nombre__input error"></p>
+
+          <input type="Text" id="Email" placeholder="Email" minlength="0" maxlength="50" pattern="/^[a-ZA-Z0-9_,+-]+@[a-ZA-Z0-9-]+$\.[a-ZA-Z0-9-]+$/," required />
+          <i claas="nombre__validacion fas fa-times-cicle"></i>
+          <p class="nombre__input error"></p>
+
+        <input type="text" id="Movil" placeholder="Movil" minlength="0" maxlength="50"
+          pattern="/^\d{7,14}$/" required />
+          <i claas="nombre__validacion fas fa-times-cicle"></i>
+          <p class="nombre__input error"></p>
+
+        <textarea name="Escribe tu mensaje" id="Mensaje" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+        <i claas="nombre__validacion fas fa-times-cicle"></i>
+        <p class="nombre__input error"></p>
+
+        <button class="btn btn-primary" type="submit">Enviar</button>
+         <i claas="nombre__validacion fas fa-times-cicle"></i>
+          <p class="nombre__input error"></p>
+      </fieldset>
+    </form>
+  </div>
+
+  <footer>
+    <div class="caja">
+    <div class="caja0">
+            <a href="https://fundaciondonbosco.es/"><img src="imagenes/Vector.png" class="imagen0"></a> 
+            <p class="texto">lorem ipsum door sit amet consectetur<br>
+                adipiscing, elit pretium natoque enim<br>
+                dui et hendrerit lacinia ut fames
+            </p>
+    </div>
+    <div class="caja1">
+        <h3 class="titulo">Don Bosco</h3>
+        <p class="texto3"><a href="Crearevento.html" id="enlace1">Eventos</a></p>
+        <p class="texto1">Contacto</p>
+    </div>
+    <div class="caja2">
+        <h3 class="titulo1">Siguenos</h3>
+        <div class="caja3">
+            <a href="https://www.facebook.com/donboscosalesianossocial"><img src="imagenes/Vector (1).png" class="imagen1"></a>
+            <a href="https://www.instagram.com/donboscosalesianossocial/"><img src="imagenes/Vector (2).png" class="imagen1"></a>
+            <a href="https://www.youtube.com/user/fundproyectodonbosco"><img src="imagenes/Vector (3).png" class="imagen1"></a>
+            <a href="https://twitter.com/donboscosocial"><img src="imagenes/Vector (4).png" class="imagen1"></a>
+            
+        </div>
+
+    </div>
+    <div class="caja5">
+    <a href="#header"><img src="imagenes/Group 233.png" class="imagen2"></a>
+        </div>
+    </div>
+    <div class="caja4">
+
+
+        <p class="texto2">© 2021 Don Bosco F5</p>
+        <p class="texto2"><a href="https://fundaciondonbosco.es/politica-privacidad/" id="enlace2">Condiciones de uso . Política de privacidad</a></p>
+    </div>
+</footer>
+
+</body>
+
+</html>
