@@ -1,0 +1,124 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    background-color: #B70F0F;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    width: 100vw;
+}
+.texto1{
+    text-align: center;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    margin: 5vw 12.92vw 0 12.92vw;
+    column-gap:5vw;
+    row-gap: 5vw; 
+    height: fit-content;
+}
+.frase{
+    color: #DC001B;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin: 3vw 25vw 0 25vw;
+    width: 50vw;
+}
+.titulo2{
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+    color: #DC001B;
+    margin-top: 26px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 3vw;
+}
+.motivacion{
+    font-size: 45px;
+    background-image: url("Arbol 1.png");
+}
+.frase1{
+    align-content: center;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: fit-content;
+    text-align: center;
+}
+.parrafo1{
+    font-family: 'monserrat';
+    font-size: 16px;  
+    color: #808080;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.parrafo2{
+    font-family: 'monserrat';
+    font-size: 18px;  
+    color: #808080;
+    text-decoration: none;
+    font-weight: bold;
+}
+.parrafo3{
+    text-align: center;
+}
+.enlace1{
+    color: #DC001B;
+    margin: 1% 0 0 8%;
+    font-weight: bold;
+}
+.enlace1:hover{
+    color: salmon;
+}
+.enlace2{
+    color: #DC001B;
+    font-weight: bold;
+}
+.enlace2:hover{
+    color: salmon;
+}
+.imagen1{
+    width: 100%;
+    height: 50%;
+    border-radius: 8px 8px 0 0px;
+}
+.imagen2{
+    width: 20%;
+    height: 20% ;
+}
+.imagen3{
+    width: 20px;
+    height: 20px;
+}
+.imagen4{
+    width: 89px;
+    height: 166px;
+    margin-right: 25%;
+}
+.imagen5{
+    width: 316px;
+    height: 159px;
+    margin-left: 30%;
+}
+h3{
+    color: #DC001B;
+    font-family: 'monserrat';
+    text-decoration-style: none;
+    margin-top: 3%;
+}
+.botonSiguiente{
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 3vw;
+}
+.title {
+    text-align: center;
+    color: #444; 
+}
+
+
