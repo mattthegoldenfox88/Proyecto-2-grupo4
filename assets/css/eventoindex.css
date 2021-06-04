@@ -1,0 +1,430 @@
+
+/* CONTENEDOR PADRE (FIXED ZONE) */
+
+.flex-padre{
+    display: flex;
+    background-color: #829db8;
+    height: 100%;
+
+}
+/* CONTENEDOR HIJO 1 */
+
+.flex-item{
+    padding: 52px;
+    margin: 100px;
+    background-color: white;
+    flex-flow: column;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* IMAGEN  Y DETALLES DEL EVENTO */
+
+.contenedorimagenprincipal{
+
+
+}
+
+.titulitodetalles{
+    color: #dc001b;
+}
+
+.imgevento{
+    margin: 17%;
+    width: 60%;
+    height: 60%;
+}
+
+.bloquededetalles{
+    position: relative;
+    bottom: 2%;
+    margin: 17%;
+}
+
+.bloquededetalles h1{
+    position: relative;
+    left: 15%;
+
+}
+
+
+/* ASISTENTES AL EVENTO */
+
+
+
+
+.bloquedeasistentes{
+position: relative;
+left: 3%;
+bottom: 2%;
+}
+
+.divtitulitoasistentes{
+    position: relative;
+    left: 24%;
+}
+
+.titulitoasistentes{
+    color: #dc001b;
+    padding: 1em;
+    margin-right: 2em;
+    margin-left: 2%;
+}
+
+.bloquedeperfiles{
+    position: relative;
+    bottom: 7em;
+    display: grid;
+    grid-template-rows:5em 5em 5em;
+    grid-template-columns: 8em 8em;
+    grid-gap: 6em;
+    padding: 1em 1em 1em 1em;
+    margin: 17%;
+}
+    
+.persona{
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    width: 70%;
+    height: 195%;
+}
+
+.elementopersona{
+    width: 14%;
+    height: 0%;
+    background-color: white;
+    margin-top: 1%;
+}
+
+.imagen-p{
+ 
+}
+
+.fotillo{
+    width: 71px;
+    height: 74px;
+}
+
+/*  AÑADIR FOTO */
+
+.bloquedefotos{
+    position: relative;
+    bottom: 2%;
+}
+.titulitofotos{
+    color: #dc001b;
+}
+
+.cabeceroañadirfotos{
+    position: relative;
+    left: 38%;
+    bottom: 13%;
+}
+
+.cabeceroañadirfotos h3{
+    position: relative;
+    left: 4%;
+    bottom: 13%;
+}
+
+.loguito{
+    width: 25%;
+    height: 25%;
+}
+
+.contenedordefotos{
+    position: relative;
+    display: grid;
+    grid-template-rows:5em 5em 5em;
+    grid-template-columns: 8em 8em;
+    grid-gap: 6em;
+    padding: 1em 1 em 1 em 1em;
+    margin-left: 17%;
+    bottom: 22%;
+}
+
+.contenedordefotos img{
+    width: 150%;
+    height: 150%;
+}
+
+/* COMENTARIO DE LOS EVENTOS */
+
+.bloquedecomentarios{
+    margin: 17%;
+}
+
+.cabecerocomentarios{
+    position: relative;
+    bottom: 8em;
+    left: 24%;
+}
+
+.titulitocomentarios{
+    color: #dc001b;
+    padding: 1em;
+    margin-right: 6em;
+    margin-left: 2%;
+}
+
+.bloqueconver{
+    position: relative;
+    bottom: 8em;
+}
+
+.conver{
+    display: flex;
+}
+
+.bocadillo{
+    background-color: violet;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.bocadillo p{
+    border-radius: 5%;
+    border:black solid;
+    margin-top: 5%;
+}
+
+.fotocomentario{
+    width: 25%;
+    margin: 5%;
+}
+
+#like1{
+    width: 71;
+    height: 34;
+    position: relative;
+    left: 72%;
+    display: flex;
+    margin: 2%;
+}
+
+#like2{
+    bottom: 2.2em;
+    position: relative;
+    left: 79%;
+    display: flex;
+    margin: 2%;
+}
+
+.metadatos{
+    display: flex;
+    margin: 1%;
+    margin: right;
+}
+
+/*  EVENTOS RELACIONADOS */
+
+.divpadreeventos{
+    position: relative;
+    bottom: 7%;
+    height: 32em;
+}
+.bloquederelacionados{
+    display: grid;
+    grid-template-rows:5em ;
+    grid-template-columns: 8em 8em 8em;
+    grid-gap: 6em;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    bottom: -60%;
+    left: 50%;
+}
+
+.divtitulitoeventos{
+    position: relative;
+    bottom: -4em;
+    margin: 1em;
+    left: 4%;
+}
+
+.titulitoeventos{
+    position: relative;
+    left: 98%;
+    color: #dc001b;
+}
+
+.otroevento1{
+    position: relative;
+    bottom: 15em;
+    width: 165%;
+    margin: 17%;
+    margin-top: 1%;
+    height: 300%;
+    background-color: white;
+    right: 115%;
+}
+.otroevento2{
+    position: relative;
+    bottom: 15em;
+    width: 165%;
+    margin: 17%;
+    margin-top: 1%;
+    height: 300%;
+    background-color: white; 
+}
+.otroevento3{
+    position: relative;
+    bottom: 15em;
+    width: 165%;
+    margin: 17%;
+    margin-top: 1%;
+    height: 300%;
+    background-color: white;
+    left: 115%; 
+}
+.letritas{
+
+
+}
+
+.masletritasylogo{
+    display: flex;
+    margin: 4%
+}
+
+.subtitulito{
+
+
+}
+
+.logoevento{
+    width: 3%;
+    
+
+}
+
+
+/*  CONTENEDOR 2 (FIXED ZONE) */
+
+.bloquedeinfo{
+    
+}
+
+.titulitoinfoevento{
+    position: relative;
+    left: 20%;
+    color: #dc001b;
+}
+
+.titulo-fixed{
+    position: relative;
+    right: 15%;
+}
+
+.cartel{
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+}
+
+.apartadoinformativo{
+    display: flex;
+    margin: 2%;
+    background-color: blueviolet;
+    
+}
+
+.titulo-organizador p{
+    position: relative;
+    left: 25%;
+}
+
+.grupo{
+    position: relative;
+    right: 1%;
+}
+
+.apartadoinformativo img{
+    width: 20%;
+    height: 20%;
+}
+
+.apartadoinformativo p{
+    color: red;
+}
+
+.imagenlogo{
+    width: ;
+    height: ;
+}
+
+.infoevento1{
+    width: 5em;
+    height: 5em;
+}
+.infoevento2{
+    width: 5em;
+    height: 5em;
+}
+.infoevento3{
+    width: 5em;
+    height: 5em;
+}
+.infoevento4{
+    width: 5em;
+    height: 5em;
+}
+
+
+.infoseccion1{
+    position: relative;
+    right: 17%;
+}
+
+.infoseccion2{
+    position: relative;
+    right: 6%;
+}
+
+.infoseccion3{
+    position: relative;
+    right: 5%;
+}
+
+.infoseccion4{
+    position: relative;
+    right: 17%;
+}
+
+
+
+
+.bloquedefotos{
+    display: grid;
+    grid-template-columns: auto;
+}
+.mapaevento{
+    position: relative;
+    top: 1em;
+   
+}
+
+/* FOOTER FIXED */
+
+.hijo3{
+    background-color: #DC001B;
+    flex-flow: raw;
+}
+
+.barrafija{
+    
+
+}
+
+.zonabotones{
+
+
+}
+
+.botones{
+
+
+
+}
