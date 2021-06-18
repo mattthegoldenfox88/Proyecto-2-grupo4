@@ -1,0 +1,110 @@
+ @media only screen and (max-width: 480px) {
+body {
+      background-color: rgb(236, 141, 31);
+    }
+.entrada{
+    width: 45%;
+    font-size: 18px;
+} 
+.entrada1{
+    width: 45%;
+    font-size:18px;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+} 
+.titulos{
+    text-align: center;
+    font-size: 65%;
+}
+.fechayhora{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.titulCheck{
+    display:grid;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+    /*.nueva{
+ display:grid;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto; 
+}*/
+/*888888888888888888888888888888888888888888888888888888888*/
+
+.caja {
+    display:grid;
+    grid-template-columns: 77%;
+    grid-template-rows: 30% 28% 30%;
+    row-gap:2%;
+}
+
+.texto {
+    padding-left:21%;
+    font-size:10px;
+}
+
+.imagen0 {
+    padding-left:21%;
+}
+
+.titulo1 {
+    position:relative;
+    left:22%;
+
+}
+
+.caja1 {
+ 
+    padding-top:10%;
+    padding-right:41%;
+}
+
+.caja3 {
+ 
+    margin-right:10%;
+}
+
+.caja2 {
+ padding-top:10%;
+ padding-right:10%;
+}
+
+.texto2 {
+ margin-left:15%;
+}
+
+.imagen2 {
+ position:relative;
+ left: 95%;
+ top:-139%;
+ width:8%;
+ height:95%;
+
+}
+
+.caja0 {
+
+ padding-top:7%
+}
+
+
+/*-----------------------------mediaquery del header------------------------------*/
+
+.navbar-expand-lg .navbar-nav {
+    position: relative;
+    font-family:Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:15px;
+    letter-spacing: 0em;
+ 
+    }
+}

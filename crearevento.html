@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/crearevento.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Nunito|Pacifico" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+        <!-- <link rel="stylesheet" href="css/tablets.css" media="only screen and (max-width:768px) and (min-width:481px)" /> -->
+        <link rel="stylesheet" href="assets/css/moviles.css" media="only screen and (max-width:480px)" />
+        <link rel="stylesheet" href="assets/bootstrap-5.0.1/dist/css/bootstrap.min.css">
+    </head>
+        <title>Crea tu evento</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <!-- Eventos  -->
+              <div class="imgbosco">
+                <img src="assets/imagenes/imagotipo_vertical_RGB_sinfondo.png" class="img-fluid" alt="Icono Don Bosco">
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 letras">
+        
+                  <li class="nav-item">
+                    <!-- eventos  -->
+                    <a class="nav-link letra" href="index.html">Eventos</a>
+                  </li>
+        
+                  <li class="nav-item ">
+                    <!-- contactos  -->
+                    <a class="nav-link letra" href="formulariodecontacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item ">
+                    <!-- Iniciar Sesión  -->
+                    <a class="nav-link letra" href="login.html">Inicio sesion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </nav>
+        <section class="titulos">
+            <h2 class="tituloarriba">
+                Programa el siguiente <span style="color:black">evento </span>para grupo con unos sencillos pasos...
+            </h2>
+            <h3 class="titulo2">
+                Detalles del <span style="color: rgb(220, 0, 27)">evento</span>
+            </h3>
+        </section>
+        <div class="formulario">
+            <form id="form" method="POST">
+                <input id="titulo" type="text" class="entrada" autofocus placeholder="Título para el evento *" name="titulo"  pattern="[A-Za-z0-9]" required/>
+                <input id="grupo" class="entrada" autofocus placeholder="Nombre del grupo" name="grupo"  pattern="[A-Za-z0-9]{5,40}" />
+                <div class="fechayhora">
+                    <label class="entra">Introduzca la fecha * y hora del evento: </label>
+                    <input id="fecha" class="entrada1" type="date" name="fechahora"  placeholder="Introduzca la fecha y hora del evento" required/>
+                    <input id="hora" class="entrada1" type="time" placeholder="Introduzca la hora del evento" />
+                </div>
+                <input id="descripcion" class="entrada" autofocus placeholder="Descripción *" name="descripcion"  pattern="[A-Za-z0-9]{5,100}" required />
+                <input id="anfitriones" class="entrada" autofocus placeholder="Anfitriones" name="anfitriones"  pattern="[A-Za-z0-9]{5,40}" />
+                <input id="limite" class="entrada" type="number" autofocus placeholder="Límite de asistentes" name="limite"  pattern="[1-99]" />
+                <input id="lugar" class="entrada" autofocus placeholder="Lugar" name="lugar"  pattern="[A-Za-z0-9]{5,30}" />
+                <div class="custom-input-file"><input class="input-file" id="foto" class="foto" type="file" />Añadir imagen para el evento *</div>
+                <div class="titulCheck">
+                    <label class="nueva">¿El evento será presencial u online? *</label>           
+                    <label class="nueva">Presencial</label> <input type="radio" id="presencial" name="tipo" value="presencial" checked>
+                    <label class="nueva">Online</label> <input type="radio" id="online" name="tipo" value="online">
+                </div>
+                <div>
+                    <input class="boton-enviar" type="submit" value="GUARDAR" id="enviar"> <br>
+                </div>
+                <h6>Los campos marcados con * son obligatorios</h6>
+            </form>
+        </div>
+    </body>
+    <footer>
+        <div class="caja">
+        <div class="caja0">
+                <a href="https://fundaciondonbosco.es/"><img src="assets/imagenes/Vector.png" class="imagen0"></a> 
+                <p class="texto">lorem ipsum door sit amet consectetur<br>
+                    adipiscing, elit pretium natoque enim<br>
+                    dui et hendrerit lacinia ut fames
+                </p>
+        </div>
+        <div class="caja1">
+            <h3 class="titulo">Don Bosco</h3>
+            <p class="texto3"><a href="Crearevento.html" class="enlace1">Eventos</a></p>
+            <p class="texto1"><a href="formulariodecontacto.html" class="enlace1">contactos</a></p>
+        </div>
+        <div class="caja2">
+            <h3 class="titulo1">Siguenos</h3>
+            <div class="caja3">
+                <a href="https://www.facebook.com/donboscosalesianossocial"><img src="assets/imagenes/Vector (1).png" class="imagen1"></a>
+                <a href="https://www.instagram.com/donboscosalesianossocial/"><img src="assets/imagenes/Vector (2).png" class="imagen1"></a>
+                <a href="https://www.youtube.com/user/fundproyectodonbosco"><img src="assets/imagenes/Vector (3).png" class="imagen1"></a>
+                <a href="https://twitter.com/donboscosocial"><img src="assets/imagenes/Vector (4).png" class="imagen1"></a>
+                
+            </div>
+
+        </div>
+        <div class="caja5">
+        <a href="#"><img src="assets/imagenes/Group 233.png" class="imagen2"></a>
+            </div>
+        </div>
+        <div class="caja4">
+            <p class="texto2">© 2021 Don Bosco F5</p>
+            <p class="texto2"><a href="https://fundaciondonbosco.es/politica-privacidad/" id="enlace2">Condiciones de uso . Política de privacidad</a></p>
+        </div>
+</footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</html>

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 480px) {
+   .caja {
+       display:grid;
+       grid-template-columns: 77%;
+       grid-template-rows: 30% 28% 30%;
+       row-gap:2%;
+   }
+
+   .texto {
+       padding-left:21%;
+       font-size:10px;
+   }
+
+   .imagen0 {
+       padding-left:21%;
+   }
+   
+   .titulo1 {
+       position:relative;
+       left:22%;
+
+   }
+
+
+   .caja1 {
+    
+       padding-top:10%;
+       padding-right:41%;
+   }
+
+   .caja3 {
+    
+       margin-right:10%;
+   }
+       
+   
+
+   }
+
+.caja2 {
+    padding-top:10%;
+    padding-right:10%;
+}
+
+.texto2 {
+    margin-left:15%;
+}
+
+.imagen2 {
+    position:relative;
+    left: 95%;
+    top:-139%;
+    width:8%;
+    height:95%;
+
+}
+
+.caja0 {
+
+    padding-top:7%
+}
+}
+
+
